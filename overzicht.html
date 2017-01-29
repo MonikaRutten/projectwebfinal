@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="nl">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--stemt groote van website op de breedte van het scherm af-->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Overzichtspagina</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="overzicht.html" id="logo">
+            <span id="transaviabold">transavia</span>
+            <span id="transavialight">verhalen</span>
+        </a>
+        <!-- BRON: Dropdown Button http://www.w3schools.com/howto/howto_js_dropdown.asp -->
+        <div class="dropdownmenu" id="menu">
+            <button onclick="myFunction()" class="dropbtnmenu">Menu</button>
+            <div id="myDropdownmenu" class="dropdown-contentmenu">
+                <a href="#">Over ons</a>
+                <a href="login.html">Login</a>
+                <a href="https://www.transavia.com/nl-NL/home/">Transavia.nl</a>
+            </div>
+        </div>
+        <section id="hidden">
+            <a href="#" id="hidden">Over ons</a>
+            <a href="https://www.transavia.com/nl-NL/home/" id="hidden">Naar transavia.nl</a>
+            <a href="login.html" id="hidden">Inloggen</a>
+        </section>
+    </header>
+    <section class="carousel">
+        <article>
+            <h1>Aanbevolen: Code</h1>
+            <p>In kwellende situaties toveren apen pennenvruchten uit invloedrijke tapijthandelaren. De engelen buigen uitermate succesvol en negeren langzaam onze overrijpe politieke overlevingstrategieën.
+            </p>
+            <p id="tabletshow">Leipe eekhoorntjes in Napels, met immorele jaknikkers naaien ze ogenblikkelijk, ontegenzeggelijk negerzoenen. </p>
+            <p id="desktopshow">Laaiend in grote Tefalpannen. Iedere nestor ziet in jaarringen nevels. Klote. Iemand nestelt de eerste relschoppers wat aardbeienijs. Geleidelijk etend negeren Tellsellkijkers een snelkookpan.</p>
+            <a href="#" id="continue">Lees verder</a>
+            <footer>
+                <img src="./img/footercodev2.png" alt="footercode">
+            </footer>
+        </article>
+    </section>
+    <section class="verhalen">
+        99 verhalen
+    </section>
+    <!-- BRON: Dropdown Button http://www.w3schools.com/howto/howto_js_dropdown.asp -->
+    <div class="filters">
+        <div class="dropdownfilter filter">
+            <button onclick="filter()" class="dropbtnfilter">Filter</button>
+            <div id="myDropdownfilter" class="dropdown-content-filter">
+                <div>
+                    <input type="checkbox" name="genre" value="Fictie">
+                    <span>Detective</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="genre" value="Non-fictie">
+                    <span>Humor</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="genre" value="Opinie">
+                    <span>Western</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="genre" value="Interview">
+                    <span>Romantisch</span>
+                </div>
+                <div>
+                    <input type="checkbox" name="genre" value="Cartoon">
+                    <span>Cartoon</span>
+                </div>
+                <p>Aantal woorden
+                    <input type="range" id="slider" />
+                </p>
+            </div>
+        </div>
+        <div class="dropdownfilter">
+            <div class="dropdownsorteer">
+                <button onclick="sorteer()" class="dropbtnsorteer">Sorteer</button>
+                <div id="myDropdownsorteer" class="dropdown-content-sorteer">
+                    <p>Best beoordeeld</p>
+                    <p>Meest bekenen</p>
+                    <p>Nummeriek</p>
+                    <p>Alfabetisch</p>
+                    <p>Chronologisch</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!--
+    <section class="stories">
+        <a href="toeristischeroute.html">
+            <img src="./img/trteaser.png" alt="toeristicherouteteaser">
+        </a>
+        <a href="kinderboek.html">
+            <img src="./img/kinderboekteaser.png" alt="kinderboekteaser">
+        </a>
+        <a href="stoned.html">
+            <img src="./img/stonedteaser.png" alt="stonedteaser">
+        </a>
+        <a href="toeristischeroute.html">
+            <img src="./img/trteaser.png" alt="toeristicherouteteaser">
+        </a>
+        <a href="stoned.html">
+            <img src="./img/stonedteaser.png" alt="stonedteaser">
+        </a>
+        <a href="kinderboek.html">
+            <img src="./img/kinderboekteaser.png" alt="kinderboekteaser">
+        </a>
+        <a href="toeristischeroute.html">
+            <img src="./img/trteaser.png" alt="toeristicherouteteaser">
+        </a>
+        <a href="stoned.html">
+            <img src="./img/stonedteaser.png" alt="stonedteaser">
+        </a>
+    </section>
+-->
+<!--
+    <div class="trteaserv3">
+        <div class='imageWrapper'>
+            <span class="text-content">                  <span id="titlestory">Toeristische Route</span>
+      </span>
+        </div>
+-->
+      <section class="stories">
+          <a href="kinderboek.html">
+           <img src="./img/teasers-01.png" alt="teaser" id="eachstory"></a>
+           <a href="stoned.html">
+           <img src="./img/teasers-02.png" alt="teaser" id="eachstory"></a>
+           <a href="toeristischeroute.html">
+           <img src="./img/teasers-03.png" alt="teaser" id="eachstory"></a>
+           <a href="stoned.html">
+           <img src="./img/teasers-02.png" alt="teaser" id="eachstory"></a>
+           <a href="kinderboek.html">
+           <img src="./img/teasers-01.png" alt="teaser" id="eachstory"></a>
+           <a href="toeristischeroute.html">
+           <img src="./img/teasers-03.png" alt="teaser" id="eachstory"></a>
+           <a href="kinderboek.html">
+           <img src="./img/teasers-01.png" alt="teaser" id="eachstory"></a>
+        </section>
+<!--        <img src="./img/download.png" alt="download">  -->
+    </div>
+</body>
+
+</html>

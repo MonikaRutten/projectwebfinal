@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="nl">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--stemt groote van website op de breedte van het scherm af-->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Overzichtspagina</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./js/script.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="overzicht.html" id="logo">
+            <span id="transaviabold">transavia</span>
+            <span id="transavialight">verhalen</span>
+        </a>
+        <!-- BRON: Dropdown Button http://www.w3schools.com/howto/howto_js_dropdown.asp -->
+        <div class="dropdownmenu" id="menu">
+            <button onclick="myFunction()" class="dropbtnmenu">Menu</button>
+            <div id="myDropdownmenu" class="dropdown-contentmenu">
+                <a href="#">Over ons</a>
+                <a href="login.html">Login</a>
+                <a href="https://www.transavia.com/nl-NL/home/">Transavia.nl</a>
+            </div>
+        </div>
+        <section id="hidden">
+            <a href="#" id="hidden">Over ons</a>
+            <a href="https://www.transavia.com/nl-NL/home/" id="hidden">Naar transavia.nl</a>
+            <a href="login.html" id="hidden">Inloggen</a>
+        </section>
+    </header>
+    <section class="bglogin">
+        <section class="contentbg">
+            <h1 class="loginpage">Inloggen</h1>
+            <section class="content">
+                <span class="input input--hoshi">
+                    <input class="input__field input__field--hoshi" type="text" id="input-4" />
+                    <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-4">
+                    <span class="input__label-content input__label-content--hoshi">E-mail</span>
+                </label>
+                </span>
+            </section>
+            <section class="content">
+                <span class="input input--hoshi">
+                    <input class="input__field input__field--hoshi" type="password" id="input-4" />
+                    <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-4">
+                      <span class="input__label-content input__label-content--hoshi">Password</span>
+                </label>
+                </span>
+            </section>
+            <a href="#" id="inloggen">Inloggen</a>
+            <p class="register">Nog geen account? Klik dan <a href="#">hier.</a>
+            </p>
+        </section>
+    </section>
+    <svg viewBox="0 0 32 32"></svg>
+</body>
+
+</html>

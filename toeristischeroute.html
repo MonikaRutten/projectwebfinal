@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--stemt groote van website op de breedte van het scherm af-->
+
+<head>
+    <meta charset="UTF-8">
+    <title>TVerhalen Toeristische Route</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="./js/script.js"></script>
+    <!--    <link rel="stylesheet" href="css/font-awesome.css">-->
+</head>
+
+<body>
+    <header>
+        <a href="overzicht.html" id="logo">
+            <span id="transaviabold">transavia</span>
+            <span id="transavialight">verhalen</span>
+        </a>
+        <!-- BRON: Dropdown Button http://www.w3schools.com/howto/howto_js_dropdown.asp -->
+        <div class="dropdownmenu" id="menu">
+            <button onclick="myFunction()" class="dropbtnmenu">Menu</button>
+            <div id="myDropdownmenu" class="dropdown-contentmenu">
+                <a href="#">Over ons</a>
+                <a href="login.html">Login</a>
+                <a href="https://www.transavia.com/nl-NL/home/">Transavia.nl</a>
+            </div>
+        </div>
+        <section id="hidden">
+            <a href="#" id="hidden">Over ons</a>
+            <a href="https://www.transavia.com/nl-NL/home/" id="hidden">Naar transavia.nl</a>
+            <a href="login.html" id="hidden">Inloggen</a>
+        </section>
+    </header>
+    <section class="topbutton">
+        <input type="checkbox" id="downloadinput">
+        <label for="downloadinput">
+            <img class="crossRotatedownload" src="https://image.flaticon.com/icons/png/512/0/532.png">
+        </label>
+        <input type="checkbox" id="laterinput">
+        <label for="laterinput">
+            <img class="crossRotatelater" src="http://www.freeiconspng.com/uploads/legal-information-8.png">
+        </label>
+    </section>
+    <section>
+        <img src="./img/toeristischeroutemobilev2.png" alt="toeristischeroute" id="mobile">
+        <img src="./img/toeristischeroutetabletv2-01.png" alt="toeristischeroute" id="tablet">
+        <img src="./img/toeristischeroutedesktopv2.png" alt="toeristischeroute" id="desktop">
+    </section>
+    <section id="reaction">
+        <h3>Laat een reactie achter
+        </h3>
+        <input type="checkbox" id="hack"/>
+        <label for="hack" id="likethis">
+            <img src='./img/like.png' id='theImage'>
+        </label>
+    </section>
+        <textarea name="commentsection" cols="40" rows="5" placeholder="..."></textarea>
+    
+</body>
+
+</html>
